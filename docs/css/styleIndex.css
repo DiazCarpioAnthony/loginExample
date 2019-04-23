@@ -86,11 +86,11 @@ input[type="text"]:focus {
     background-color: dodgerBlue;
 }
 
-main .contenedor .contenedor-enlace{
+main .contenedor .contenedor-enlace {
     margin-top: 10px;
 }
 
-main .contenedor .contenedor-enlace a{
+main .contenedor .contenedor-enlace a {
     display: block;
     color: #fff;
     font-size: 15px;
@@ -100,7 +100,8 @@ main .contenedor .contenedor-enlace a{
     text-decoration: none;
     padding-bottom: 3px;
 }
-main .contenedor .contenedor-enlace a:hover{
+
+main .contenedor .contenedor-enlace a:hover {
     border-bottom: 1.5px solid #fff;
 }
 
@@ -121,12 +122,17 @@ footer img {
     height: 100%;
 }
 
-@media screen and (max-width:800px ) {
-    
-    body{   
+@media screen and (max-width:800px) {
+    body {
         padding-top: 50%;
     }
-    main .contenedor{
+    main .contenedor {
         padding-bottom: 50%;
+    }
+    main img {
+        width: 40%;
+    }
+    footer img {
+        height: 10px;
     }
 }
