@@ -124,10 +124,10 @@ footer img {
 
 @media screen and (max-width:800px) {
     body {
-        padding-top: 50%;
+        padding-top: 40%;
     }
     main .contenedor {
-        padding-bottom: 50%;
+        padding-bottom: 40%;
     }
     main img {
         width: 40%;
