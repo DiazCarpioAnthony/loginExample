@@ -6,20 +6,347 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Juegos Panamericanos - Deportes</title>
-
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
-    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css'>
     <link rel="stylesheet" href="../css/styleDeportes.css">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
 </head>
 
 <body>
-    <div class="flex_container">
-        <a class="noise_btn noise_btn--border" href="#"><strong>hover me</strong></a>
-        <a class="noise_btn noise_btn--bg" href="#"><strong>hover me</strong></a>
-    </div>
-    <script src='https://cdnjs.cloudflare.com/ajax/libs/pixi.js/4.6.2/pixi.min.js'></script>
-    <script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.3/TweenMax.min.js'></script>
-    <script src='https://cdnjs.cloudflare.com/ajax/libs/babel-polyfill/6.26.0/polyfill.min.js'></script>
-    <script src="../js/animacionBtnRuido.js"></script>
+    <header>
+        <div class="header">
+            <img src="../img/logo-color-lima2019.png" id="logo" alt="Logo">
+
+            <img src="../img/user.png" id="user" alt="user">
+        </div>
+        <h2 class="titulo-sede">
+            Sede - Lima
+        </h2>
+    </header>
+    <main>
+        <h2 class="titulo"> <span>|</span> DEPORTES <span>PANAMERICANOS</span></h2>
+        <div class="form-group">
+            <input type="search" id="search" placeholder="Escriba el nombre del deporte">
+        </div>
+        <div class="deporte" style="background-image: url(../img/bg-deportes-panamericanos-atletismo.png)">
+            <div class="logoTitulo">
+                    <img src="../img/atletismo_logo.png" alt="logo">
+                    <h3>ATLETISMO</h3>
+            </div>
+            <i class="fas fa-chevron-right"></i>
+        </div>
+        <div class="deporte" style="background-image: url(../img/bg-deportes-panamericanos-badminton.png)">
+            <div class="logoTitulo">
+                    <img src="../img/atletismo_logo.png" alt="logo">
+                    <h3>BADMINTON</h3>
+             </div>
+            <i class="fas fa-chevron-right"></i>
+        </div>
+        <div class="deporte" style="background-image: url(../img/bg-deportes-panamericanos-baloncesto.png)">
+            <div class="logoTitulo">
+                    <img src="../img/atletismo_logo.png" alt="logo">
+                    <h3>BALONCESTO</h3>
+             </div>
+            <i class="fas fa-chevron-right"></i>
+        </div>
+        <div class="deporte" style="background-image: url(../img/bg-deportes-panamericanos-beisbol.png)"">
+            <div class="logoTitulo">
+                    <img src="../img/atletismo_logo.png" alt="logo">
+                    <h3>BEISBOL</h3>
+             </div>
+            <i class="fas fa-chevron-right"></i>
+        </div>
+        <div class="deporte" style="background-image: url(../img/bg-deportes-panamericanos-balonmano.jpg)">
+            <div class="logoTitulo">
+                    <img src="../img/atletismo_logo.png" alt="logo">
+                    <h3>BALONMANO</h3>
+             </div>
+            <i class="fas fa-chevron-right"></i>
+        </div>
+        <div class="deporte" style="background-image: url(../img/bg-deportes-panamericanos-bowling.jpg)">
+            <div class="logoTitulo">
+                   <img src="../img/atletismo_logo.png" alt="logo">
+                    <h3>BOWLING</h3>
+             </div>
+            <i class="fas fa-chevron-right"></i>
+        </div>
+        <div class="deporte" style="background-image: url(../img/bg-deportes-panamericanos-box.png)">
+            <div class="logoTitulo">
+                    <img src="../img/atletismo_logo.png" alt="logo">
+                    <h3>BOXEO</h3>
+             </div>
+            <i class="fas fa-chevron-right"></i>
+        </div>
+        <div class="deporte" style="background-image: url(../img/canotaje-slalom-juegos-panamericanos.jpg)">
+            <div class="logoTitulo">
+                    <img src="../img/atletismo_logo.png" alt="logo">
+                    <h3>CANOTAJE SLALOM</h3>
+             </div>
+            <i class="fas fa-chevron-right"></i>
+        </div>
+        <div class="deporte" style="background-image: url(../img/bg-deportes-panamericanos-canotaje-velocidad.png)">
+            <div class="logoTitulo">
+                    <img src="../img/atletismo_logo.png" alt="logo">
+                    <h3>CANOTAJE VELOCIDAD</h3>
+             </div>
+            <i class="fas fa-chevron-right"></i>
+        </div>
+        <div class="deporte" style="background-image: url(../img/bg-deportes-panamericanos-bmx.png)">
+            <div class="logoTitulo">
+                    <img src="../img/atletismo_logo.png" alt="logo">
+                    <h3>CICLISMO BMX</h3>
+             </div>
+            <i class="fas fa-chevron-right"></i>
+        </div>
+        <div class="deporte" style="background-image: url(../img/bg-deportes-panamericanos-ciclismo-de-montana.png)">
+            <div class="logoTitulo">
+                    <img src="../img/atletismo_logo.png" alt="logo">
+                    <h3>CICLISMO DE MONTAÑA</h3>
+             </div>
+            <i class="fas fa-chevron-right"></i>
+        </div>
+        <div class="deporte" style="background-image: url(../img/bg-deportes-panamericanos-ciclismo-de-pista.png)">
+            <div class="logoTitulo">
+                    <img src="../img/atletismo_logo.png" alt="logo">
+                    <h3>CICLISMO DE PISTA</h3>
+             </div>
+            <i class="fas fa-chevron-right"></i>
+        </div>
+        <div class="deporte" style="background-image: url(../img/bg-deportes-panamericanos-ciclismo-de-ruta.png)">
+            <div class="logoTitulo">
+                    <img src="../img/atletismo_logo.png" alt="logo">
+                    <h3>CICLISMO DE RUTA</h3>
+             </div>
+            <i class="fas fa-chevron-right"></i>
+        </div>
+        <div class="deporte" style="background-image: url(../img/bg-deportes-panamericanos-clavados.jpg)">
+            <div class="logoTitulo">
+                   <img src="../img/atletismo_logo.png" alt="logo">
+                    <h3>CLAVADOS</h3>
+             </div>
+            <i class="fas fa-chevron-right"></i>
+        </div>
+        <div class="deporte" style="background-image: url(../img/bg-deportes-panamericanos-esgrima.png)">
+            <div class="logoTitulo">
+                    <img src="../img/atletismo_logo.png" alt="logo">
+                    <h3>ESGRIMA</h3>
+             </div>
+            <i class="fas fa-chevron-right"></i>
+        </div>
+        <div class="deporte" style="background-image: url(../img/bg-deportes-panamericanos-esqui-acuatico.jpg)">
+            <div class="logoTitulo">
+                   <img src="../img/atletismo_logo.png" alt="logo">
+                    <h3>ESQUI ACUÁTICO</h3>
+             </div>
+            <i class="fas fa-chevron-right"></i>
+        </div>
+        <div class="deporte" style="background-image: url(../img/bg-deportes-panamericanos-fisicoculturismo.jpg)">
+            <div class="logoTitulo">
+                   <img src="../img/atletismo_logo.png" alt="logo">
+                    <h3>FISICOCULTURISMO</h3>
+             </div>
+            <i class="fas fa-chevron-right"></i>
+        </div>
+        <div class="deporte" style="background-image: url(../img/bg-deportes-panamericanos-futbol.jpg)">
+            <div class="logoTitulo">
+                   <img src="../img/atletismo_logo.png" alt="logo">
+                    <h3>FUTBOL</h3>
+             </div>
+            <i class="fas fa-chevron-right"></i>
+        </div>
+        <div class="deporte" style="background-image: url( ../img/bg-deportes-panamericanos-gimnasia-artistica.png)">
+            <div class="logoTitulo">
+                    <img src="../img/atletismo_logo.png" alt="logo">
+                    <h3>GIMNASIA ARTISTICA</h3>
+             </div>
+            <i class="fas fa-chevron-right"></i>
+        </div>
+        <div class="deporte" style="background-image: url(../img/bg-deportes-panamericanos-gimnasia-ritmica.png)">
+            <div class="logoTitulo">
+                    <img src="../img/atletismo_logo.png" alt="logo">
+                    <h3>GIMNASIA RITMICA</h3>
+             </div>
+            <i class="fas fa-chevron-right"></i>
+        </div>
+        <div class="deporte" style="background-image: url(../img/bg-deportes-panamericanos-golf.jpg)">
+            <div class="logoTitulo">
+                   <img src="../img/atletismo_logo.png" alt="logo">
+                    <h3>GOLF</h3>
+             </div>
+            <i class="fas fa-chevron-right"></i>
+        </div>
+        <div class="deporte" style="background-image: url(../img/bg-hockey-juegos-panamericanos-lima-2019-1.png)">
+            <div class="logoTitulo">
+                    <img src="../img/atletismo_logo.png" alt="logo">
+                    <h3>HOCKEY</h3>
+             </div>
+            <i class="fas fa-chevron-right"></i>
+        </div>
+        <div class="deporte" style="background-image: url(../img/judo-juegos-parapanamericanos-lima-2019-1.jpg)">
+            <div class="logoTitulo">
+                    <img src="../img/atletismo_logo.png" alt="logo">
+                    <h3>JUDO</h3>
+             </div>
+            <i class="fas fa-chevron-right"></i>
+        </div>
+        <div class="deporte" style="background-image: url(../img/bg-deportes-panamericanos--karate-kumite.png)">
+            <div class="logoTitulo">
+                    <img src="../img/atletismo_logo.png" alt="logo">
+                    <h3>KARATE</h3>
+             </div>
+            <i class="fas fa-chevron-right"></i>
+        </div>
+        <div class="deporte" style="background-image: url(../img/bg-deportes-panamericanos-pesas.jpg)">
+            <div class="logoTitulo">
+                   <img src="../img/atletismo_logo.png" alt="logo">
+                    <h3>LEVANTAMIENTO DE PESAS</h3>
+             </div>
+            <i class="fas fa-chevron-right"></i>
+        </div>
+        <div class="deporte" style="background-image: url(../img/bg-deportes-panamericanos-lucha.jpg)">
+            <div class="logoTitulo">
+                   <img src="../img/atletismo_logo.png" alt="logo">
+                    <h3>LUCHA</h3>
+             </div>
+            <i class="fas fa-chevron-right"></i>
+        </div>
+        <div class="deporte" style="background-image: url(../img/bg-deportes-panamericanos-natacion.jpg)">
+            <div class="logoTitulo">
+                    <img src="../img/atletismo_logo.png" alt="logo">
+                    <h3>NATACION</h3>
+             </div>
+            <i class="fas fa-chevron-right"></i>
+        </div>
+        <div class="deporte" style="background-image: url(../img/bg-deportes-panamericanos-patinaje-artistico.png)">
+            <div class="logoTitulo">
+                    <img src="../img/atletismo_logo.png" alt="logo">
+                    <h3>PATINAJE ARTISTICO</h3>
+             </div>
+            <i class="fas fa-chevron-right"></i>
+        </div>
+        <div class="deporte" style="background-image: url(../img/bg-deportes-panamericanos-pentatlon-moderno.png)">
+            <div class="logoTitulo">
+                    <img src="../img/atletismo_logo.png" alt="logo">
+                    <h3>PENTATLON MODERNO</h3>
+             </div>
+            <i class="fas fa-chevron-right"></i>
+        </div>
+        <div class="deporte" style="background-image: url(../img/bg-deportes-panamericanos-raquetbol.png)">
+            <div class="logoTitulo">
+                    <img src="../img/atletismo_logo.png" alt="logo">
+                    <h3>RAQUETBOL</h3>
+             </div>
+            <i class="fas fa-chevron-right"></i>
+        </div>
+        <div class="deporte" style="background-image: url(../img/bg-deportes-panamericanos-remo.png)">
+            <div class="logoTitulo">
+                    <img src="../img/atletismo_logo.png" alt="logo">
+                    <h3>REMO</h3>
+             </div>
+            <i class="fas fa-chevron-right"></i>
+        </div>
+        <div class="deporte" style="background-image: url(../img/bg-deportes-panamericanos-rugby-femenino.png)">
+            <div class="logoTitulo">
+                    <img src="../img/atletismo_logo.png" alt="logo">
+                    <h3>RUGBY 7</h3>
+             </div>
+            <i class="fas fa-chevron-right"></i>
+        </div>
+        <div class="deporte" style="background-image: url(../img/bg-skateboarding-juegos-panamericanos-lima-2019-3.jpg)">
+            <div class="logoTitulo">
+                    <img src="../img/atletismo_logo.png" alt="logo">
+                    <h3>SKATEBOARDING</h3>
+             </div>
+            <i class="fas fa-chevron-right"></i>
+        </div>
+        <div class="deporte" style="background-image: url(../img/bg-deportes-panamericanos-softbol.png)">
+            <div class="logoTitulo">
+                    <img src="../img/atletismo_logo.png" alt="logo">
+                    <h3>SOFTBOL</h3>
+             </div>
+            <i class="fas fa-chevron-right"></i>
+        </div>
+        <div class="deporte" style="background-image: url(../img/bg-deportes-panamericanos-squash.png)">
+            <div class="logoTitulo">
+                    <img src="../img/atletismo_logo.png" alt="logo">
+                    <h3>SQUASH</h3>
+             </div>
+            <i class="fas fa-chevron-right"></i>
+        </div>
+        <div class="deporte" style="background-image: url(../img/bg-deportes-panamericanos-surf.png)">
+            <div class="logoTitulo">
+                    <img src="../img/atletismo_logo.png" alt="logo">
+                    <h3>SURF</h3>
+             </div>
+            <i class="fas fa-chevron-right"></i>
+        </div>
+        <div class="deporte" style="background-image: url(../img/bg-deportes-panamericanos-taekwondo.png)">
+            <div class="logoTitulo">
+                    <img src="../img/atletismo_logo.png" alt="logo">
+                    <h3>TAEKWONDO</h3>
+             </div>
+            <i class="fas fa-chevron-right"></i>
+        </div>
+        <div class="deporte" style="background-image: url(../img/bg-deportes-panamericanos-tenis.png)">
+            <div class="logoTitulo">
+                    <img src="../img/atletismo_logo.png" alt="logo">
+                    <h3>TENIS</h3>
+             </div>
+            <i class="fas fa-chevron-right"></i>
+        </div>
+        <div class="deporte" style="background-image: url(../img/bg-deportes-panamericanos-tenis-de-mesa.png)">
+            <div class="logoTitulo">
+                    <img src="../img/atletismo_logo.png" alt="logo">
+                    <h3>TENIS DE MESA</h3>
+             </div>
+            <i class="fas fa-chevron-right"></i>
+        </div>
+        <div class="deporte" style="background-image: url(../img/bg-deportes-panamericanos-tiro-con-arco.png)">
+            <div class="logoTitulo">
+                    <img src="../img/atletismo_logo.png" alt="logo">
+                    <h3>TIRO CON ARCO</h3>
+             </div>
+            <i class="fas fa-chevron-right"></i>
+        </div>
+        <div class="deporte" style="background-image: url(../img/voleibol-juegos-panamericanos-lima-2019-1.png)">
+            <div class="logoTitulo">
+                    <img src="../img/atletismo_logo.png" alt="logo">
+                    <h3>VOLEIBOL</h3>
+             </div>
+            <i class="fas fa-chevron-right"></i>
+        </div>
+        <div class="deporte" style="background-image: url(../img/bg-deportes-panamericanos-voleibol-playa.jpg)">
+            <div class="logoTitulo">
+                    <img src="../img/atletismo_logo.png" alt="logo">
+                    <h3>VOLEIBOL DE PLAYA</h3>
+             </div>
+            <i class="fas fa-chevron-right"></i>
+        </div>
+        <div class="deporte" style="background-image: url( ../img/bg-deportes-panamericanos-waterpolo.png)">
+            <div class="logoTitulo" >
+                    <img src="../img/atletismo_logo.png" alt="logo">
+                    <h3>WATER POLO</h3>
+             </div>
+            <i class="fas fa-chevron-right"></i>
+        </div>
+    </main > 
+
+    <footer>
+        <h2>Panamericanos Lima 2018 - Todos los Derechos Reservados</h2>
+    </footer>
+
+    <script src="../js/busqueda.js"></script>
+    <script>
+        var logo = document.getElementById("logo"),
+            user = document.getElementById("user");
+        logo.addEventListener("click", function (e) {
+           location.href = "../index.html";
+           e.preventDefault();
+        });
+        user.addEventListener("click", function (e) {
+           location.href = "../index.html";
+           e.preventDefault();
+        });
+    </script>
 </body>
+
 </html>

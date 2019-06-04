@@ -19,11 +19,11 @@
                 <label for="codigo">CÓDIGO DE INGRESO</label>
                 <div class="inputWithIcon">
                     <input type="text" placeholder="CXFFX-FDS">
-                    <i class="fas fa-chevron-right"></i>
+                    <i id="enter" class="fas fa-chevron-right"></i>
                 </div>
             </div>
             <div class="contenedor-enlace">
-                <a href="#">Ingresar como invitado</a>
+                <a href="html/deportes.html">Ingresar como invitado</a>
             </div>
         </div>
         <img src="img/milco-6.png" alt="milco">
@@ -32,6 +32,14 @@
     <footer>
         <img src="img/bg-blue.png" alt="blue">
     </footer>
+
+    <script>
+        var enlace = document.getElementById("enter");
+        enlace.addEventListener("click", function (e) {
+            location.href = "html/deportes.html";
+            e.preventDefault();
+        });
+    </script>
 </body>
 
 </html>
