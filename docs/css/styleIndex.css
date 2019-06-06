@@ -12,7 +12,7 @@ body {
 .contenedor {
     padding: 0;
     overflow: hidden;
-    max-width: 250px;
+    max-width: 300px;
     margin: auto;
     margin-top: 20%;
     display: flex;
@@ -145,5 +145,9 @@ footer img:nth-child(2) {
         background: url("../img/background-celular.png");
         background-size: cover;
         
+    }
+    
+    main .contenedor .contenedor-input label {
+        font-size: 21px;
     }
 }
